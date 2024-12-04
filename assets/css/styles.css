@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.logo-img {
+    width: 800px;
+    height: auto;
+    object-fit: contain;
+
+}
+
+.bi {
+    font-size: 25px;
+
+}
+
+.social-icon {
+    font-size: 30px;
+
+}
+
+
+.form-control,
+.input-group-text {
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+.btn-custom {
+    background-color: black;
+    border: 1px;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.btn-custom:hover {
+    color: white;
+
+}
+
+.btn-custom:focus {
+    outline: none;
+    box-shadow: none;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+a {
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ccc;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 2rem;
+}
